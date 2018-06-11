@@ -1,0 +1,26 @@
+language: generic
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker pull francescoceruti/flatpack
+
+script:
+  # Run the build in a container, mounting the current directory
+  - docker run --privileged -v ${PWD}:/src -i francescoceruti/flatpack src/build.sh
+
+cache:
+  directories:
+    # Flatpak build cache
+    - $TRAVIS_BUILD_DIR/.flatpak-builder
+
+deploy:
+  provider: bintray
+  file: bintray.json
+  user: "francescoceruti"
+  key: $BINTRAY_API_KEY
+  skip_cleanup: true # since we are building inside the working-directory
+  on:
+    all_branches: true
