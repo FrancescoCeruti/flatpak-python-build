@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Make sure we are in the same directory of this file
+cd "${0%/*}"
+
 set -xe
 
 # Install runtime and sdk

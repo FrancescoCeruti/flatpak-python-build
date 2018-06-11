@@ -9,10 +9,6 @@
 	"modules": [
 		{
 			"name": "cpython",
-			"build-options": {
-				"strip": false,
-				"no-debuginfo": true
-			},
 			"config-opts": [
 				"--enable-shared",
 				"--enable-optimizations"
@@ -22,7 +18,11 @@
 					"type": "archive",
 					"url": "https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tar.xz",
 					"sha256": "f434053ba1b5c8a5cc597e966ead3c5143012af827fd3f0697d21450bb8d87a6"
-				}
+				},
+				{
+                    "type": "patch",
+                    "path": "dont-make-libpython-readonly.patch"
+                }
 			]
 		}
 	]
