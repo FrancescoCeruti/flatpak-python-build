@@ -1,7 +1,7 @@
 {
     "package": {
         "subject": "francescoceruti",
-        "repo": "flatpak-python",
+        "repo": "flatpak-builds",
         "name": "python",
         "desc": "Automatic builds from travis-ci",
         "vcs_url": "https://github.com/FrancescoCeruti/linux-show-player.git"
