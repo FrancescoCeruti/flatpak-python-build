@@ -13,6 +13,6 @@ flatpak install flathub org.freedesktop.Platform//1.6 org.freedesktop.Sdk//1.6
 flatpak-builder --verbose --force-clean --ccache build-dir org.python.Python.json
 
 # Put the build result in in tar.gz file
-tar -zcvf build.tar.gz -C build-dir/files/ .
+tar -zcf build.tar.gz -C build-dir/files/ .
 
 set +xe

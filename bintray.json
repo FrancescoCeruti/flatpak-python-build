@@ -1,10 +1,10 @@
 {
     "package": {
-    "subject": "francescoceruti",
-    "repo": "flatpak-python",
-    "name": "",
-    "desc": "Automatic builds from travis-ci",
-    "vcs_url": "https://github.com/FrancescoCeruti/linux-show-player.git"
+        "subject": "francescoceruti",
+        "repo": "flatpak-python",
+        "name": "python",
+        "desc": "Automatic builds from travis-ci",
+        "vcs_url": "https://github.com/FrancescoCeruti/linux-show-player.git"
     },
 
     "version": {
@@ -14,7 +14,7 @@
     "files": [
         {
             "includePattern": "build.tar.gz",
-            "uploadPattern": "/py3.6.5-freedesktop1.6/py3.6.5-freedesktop1.6.tar.gz"
+            "uploadPattern": "/py3.6.5-freedesktop1.6.tar.gz"
         }
     ],
 
