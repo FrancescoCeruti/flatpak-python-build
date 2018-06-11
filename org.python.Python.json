@@ -20,9 +20,9 @@
 					"sha256": "f434053ba1b5c8a5cc597e966ead3c5143012af827fd3f0697d21450bb8d87a6"
 				},
 				{
-                    "type": "patch",
-                    "path": "dont-make-libpython-readonly.patch"
-                }
+					"type": "patch",
+					"path": "dont-make-libpython-readonly.patch"
+				}
 			]
 		}
 	]
