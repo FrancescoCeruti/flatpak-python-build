@@ -8,13 +8,13 @@
     },
 
     "version": {
-        "name": "py3.6.5-freedesktop1.6"
+        "name": "py3.6.6-freedesktop1.6"
     },
 
     "files": [
         {
             "includePattern": "build.tar.gz",
-            "uploadPattern": "/py3.6.5-freedesktop1.6.tar.gz",
+            "uploadPattern": "/py3.6.6-freedesktop1.6.tar.gz",
             "matrixParams": {
                 "override": 1
             }
