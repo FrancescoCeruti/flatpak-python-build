@@ -16,8 +16,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tar.xz",
-					"sha256": "0382996d1ee6aafe59763426cf0139ffebe36984474d0ec4126dd1c40a8b3549"
+					"url": "https://www.python.org/ftp/python/3.7.1/Python-3.7.1.tar.xz",
+					"sha256": "856702790666d757b1521b11dc413bec0771b447a87f68d8b5856869eaa3039f"
 				},
 				{
 					"type": "patch",
